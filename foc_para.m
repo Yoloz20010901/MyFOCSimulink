@@ -1,6 +1,7 @@
 % 开关频率
 SwitchFrequency = 20e3;
-Ts = 1/SwitchFrequency;
+my_Ts = 1/SwitchFrequency;   % my_Ts: 避免与Simulink内置Ts冲突
+Ts = my_Ts;                  % 兼容旧模型使用Ts的块
 Tpwm = 4000-1;
 
 % mode
