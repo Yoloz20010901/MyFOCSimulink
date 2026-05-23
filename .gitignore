@@ -1,0 +1,37 @@
+*.slxc                    # 模型编译缓存
+*.autosave               # 自动保存文件
+*_acc*                   # 加速器文件
+*.r*                     # 代码生成报告
+/mdlref*                 # 模型引用临时文件夹
+/slprj/                  # Simulink Project 临时文件夹
+/ssc*                    # Simulink Compiler 文件
+/sfprj/                  # Stateflow 临时文件夹
+*.sldd                   # 数据字典（如共享则保留）
+simscape_work/           # Simscape 工作文件夹
+html/                    # 自动生成的报告
+
+# ============ MATLAB 临时文件 ============
+*.m~                     # 编辑器备份
+*.asv                    # MATLAB 编辑器自动保存
+*.mat                    # 数据文件（建议不忽略，便于分享参数）
+*.mex*                   # MEX 文件
+*.p                      # 加密 P 文件
+/proj/                   # 项目缓存
+
+# ============ 操作系统文件 ============
+.DS_Store                # macOS
+Thumbs.db                # Windows
+desktop.ini
+*.lnk
+
+# ============ IDE/编辑器文件 ============
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============ 仿真输出文件 ============
+*.out
+*.log
+*.diag
+simscape.log
